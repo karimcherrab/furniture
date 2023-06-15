@@ -1,20 +1,22 @@
 import React from 'react';
 
 // import components
-import { Route , Routes } from "react-router-dom";
+import { Route , Routes , BrowserRouter } from "react-router-dom";
 
 import Home from './Pages/Home'
 
 const App = () => {
   return (
 
-
-      
-    <Routes>
+<BrowserRouter>
+<Routes>
         
-    <Route path="/furniture" element={<Home/>}/>
-
-  </Routes>
+        <Route path="/furniture" element={<Home/>}/>
+    
+      </Routes>
+</BrowserRouter>
+      
+   
  
   )
  

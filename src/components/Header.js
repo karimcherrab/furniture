@@ -23,7 +23,7 @@ const Header = () => {
     >
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
-          <a href='/'>
+          <a href='/furniture'>
             <img className='h-6 lg:h-8' src={logo} alt=''/>
           </a>
           <div
@@ -37,7 +37,7 @@ const Header = () => {
                 navigation.map((item , index)=>{
                   return(
                     <li key={index}>
-                      <a className='capitalize text-white hover:border-b transition-all' href={item.href}>
+                      <a className='capitalize text-white hover:border-b transition-all' href="/furniture">
                         {item.name}
                       </a>
                     </li>

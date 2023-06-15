@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='flex flex-col lg:flex-row justify-between border-b
             border-opacity-75 border-gray-700 pb-7 lg:pb-14 mb-14
             '>
-              <a className='mb-6 lg:mb-0' href='/'>
+              <a className='mb-6 lg:mb-0' href='/furniture'>
                 <img src={logo} alt=''/>
               </a>
               <div className='flex gap-x-4'>
@@ -22,7 +22,7 @@ const Footer = () => {
                       items-center transition
                       
                       ' key={index}>
-                          <a href='/' >{item.icon}</a>
+                          <a href='/furniture' >{item.icon}</a>
                       </div>
                     )
                   })
